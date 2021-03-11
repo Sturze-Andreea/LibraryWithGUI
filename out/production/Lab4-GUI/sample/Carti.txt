@@ -1,0 +1,5 @@
+Ion,Liviu Rebreanu,1920,12.8,Viața Românească,HDS573D1,false
+Hotul de carti,Markus Zusak,2011,29.44,RAO,JSY6873E,false
+Minunea,R.J. Palacio,2013,36.46,Arthur,IJR732YD,true
+Baiatul cu pijamale in dungi,John Boyne,2016,19.35,RAO,HDSU3529,true
+Harry Potter,J.K. Rowling,2014,40.99,Arthur,HD729D3,false

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="tabel2Pane" prefHeight="530.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UI.AppController">
+   <children>
+      <TableView fx:id="tabel2View" layoutX="14.0" layoutY="14.0" prefHeight="251.0" prefWidth="713.0" AnchorPane.bottomAnchor="265.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <columns>
+            <TableColumn fx:id="titluColumnt2" prefWidth="127.0" style="&#10;" text="Titlu" />
+            <TableColumn fx:id="autorColumnt2" maxWidth="5000.0" minWidth="10.0" prefWidth="106.0" text="Autor" />
+            <TableColumn fx:id="anColumnt2" maxWidth="5000.0" minWidth="10.0" prefWidth="87.0" text="An Aparitie" />
+            <TableColumn fx:id="pretColumnt2" maxWidth="5000.0" minWidth="10.0" prefWidth="59.0" text="Pret" visible="true" />
+            <TableColumn fx:id="edituraColumnt2" minWidth="0.0" prefWidth="100.0" text="Editura" />
+            <TableColumn fx:id="cotaColumnt2" maxWidth="5000.0" minWidth="10.0" prefWidth="86.0" text="Cota" />
+            <TableColumn fx:id="imprumutataColumnt2" maxWidth="5000.0" minWidth="10.0" prefWidth="82.0" text="Imprumutata" />
+            <TableColumn fx:id="nrImprumutariColumn" prefWidth="124.0" text="Numar Imprumutari" />
+         </columns>
+      </TableView>
+      <Button fx:id="tabel2Button" layoutX="31.0" layoutY="361.0" mnemonicParsing="false" onAction="#tabel2" prefHeight="71.0" prefWidth="428.0" text="Carti Imprumutate Ordonate dupa Numar Imprumutari" />
+      <Button fx:id="backButtontabel2" layoutX="587.0" layoutY="432.0" mnemonicParsing="false" onAction="#closeWindowtabel2" prefHeight="52.0" prefWidth="139.0" text="Back">
+         <tooltip>
+            <Tooltip text="Back To Start Window" />
+         </tooltip>
+      </Button>
+   </children>
+</AnchorPane>

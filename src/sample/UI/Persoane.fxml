@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pane2Pers" prefHeight="530.0" prefWidth="741.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UI.AppController">
+  <children>
+    <Button fx:id="addButtonPers" alignment="CENTER" layoutX="591.0" layoutY="297.0" mnemonicParsing="false" onAction="#addPersoane" prefHeight="48.0" prefWidth="129.0" text="Adauga" />
+    <Button fx:id="displayButtonPers" layoutX="484.0" layoutY="408.0" mnemonicParsing="false" onAction="#showAllPers" prefHeight="54.0" prefWidth="149.0" styleClass="null" text="Afiseaza">
+    </Button>
+    <TextField fx:id="nume" layoutX="14.0" layoutY="301.0" prefHeight="35.0" prefWidth="122.0" promptText="Nume" />
+    <TextField fx:id="cartiImprumutate" layoutX="157.0" layoutY="301.0" prefHeight="35.0" prefWidth="428.0" promptText="Carti Imprumutate" />
+    <Label fx:id="messagePers" layoutX="197.0" layoutY="345.0" prefHeight="48.0" prefWidth="370.0" wrapText="true" />
+    <Button fx:id="backButtonPers" layoutX="643.0" layoutY="472.0" mnemonicParsing="false" onAction="#closeWindowPers" prefHeight="35.0" prefWidth="84.0" text="Back">
+      <tooltip>
+        <Tooltip text="Back To Start Window" />
+      </tooltip>
+    </Button>
+    <Button fx:id="deleteButtonPers" layoutX="315.0" layoutY="408.0" mnemonicParsing="false" onAction="#removePersoane" prefHeight="54.0" prefWidth="149.0" text="Sterge" />
+    <TableView fx:id="tablePersoane" layoutX="14.0" layoutY="14.0" prefHeight="251.0" prefWidth="713.0">
+      <columns>
+        <TableColumn fx:id="numeColumn" prefWidth="142.0" style="&#10;" text="Nume" />
+        <TableColumn fx:id="cartiImprumutateColumn" maxWidth="5000.0" minWidth="10.0" prefWidth="570.0" text="Carti Imprumutate" />
+      </columns>
+    </TableView>
+    <Button fx:id="updateButtonPers" layoutX="144.0" layoutY="411.0" mnemonicParsing="false" onAction="#updatePersoane" prefHeight="48.0" prefWidth="149.0" text="Update" />
+    <Button fx:id="clearButtonPers" layoutX="11.0" layoutY="376.0" mnemonicParsing="false" onAction="#clearTextFieldPers" prefHeight="35.0" prefWidth="105.0" text="Clear" />
+      <Button fx:id="tabel3Button" layoutX="14.0" layoutY="469.0" mnemonicParsing="false" onAction="#tabel3Persoane" prefHeight="54.0" prefWidth="245.0" text="Persoane descrescator dupa imprumutari" />
+  </children>
+</AnchorPane>

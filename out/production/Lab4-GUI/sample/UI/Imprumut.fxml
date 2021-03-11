@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pane2Imprumut" prefHeight="530.0" prefWidth="741.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UI.AppController">
+  <children>
+    <Button fx:id="addButtonImprumut" alignment="CENTER" layoutX="495.0" layoutY="265.0" mnemonicParsing="false" onAction="#addImprumut" prefHeight="64.0" prefWidth="202.0" text="Adauga" />
+    <TextField fx:id="titluImprumut" layoutX="335.0" layoutY="163.0" prefHeight="48.0" prefWidth="243.0" promptText="Titlu Carte" />
+    <TextField fx:id="numeImprumut" layoutX="44.0" layoutY="163.0" prefHeight="48.0" prefWidth="250.0" promptText="Nume Persoana" />
+    <Label fx:id="messageImprumut" layoutX="139.0" layoutY="353.0" prefHeight="72.0" prefWidth="392.0" wrapText="true" />
+    <Button fx:id="backButtonImprumut" layoutX="553.0" layoutY="425.0" mnemonicParsing="false" onAction="#closeWindowImprumut" prefHeight="64.0" prefWidth="135.0" text="Back">
+      <tooltip>
+        <Tooltip text="Back To Start Window" />
+      </tooltip>
+    </Button>
+    <Button fx:id="clearButtonImprumut" layoutX="31.0" layoutY="257.0" mnemonicParsing="false" onAction="#clearTextFieldImprumut" prefHeight="64.0" prefWidth="165.0" text="Clear" />
+  </children>
+</AnchorPane>
